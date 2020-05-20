@@ -1,0 +1,136 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url("../Fonts/Bebas Neue/BebasNeue-Regular.woff");
+}
+@font-face {
+    font-family: mySecondFont;
+    src: url("../Fonts/Roboto/Roboto-Light.ttf");
+}
+
+header {
+    margin-top: 30px;
+    height: 44px;
+}
+.fab.fa-twitter.fa-2x{
+    color: rgb(0, 0, 0);
+}
+.fab.fa-linkedin.fa-2x{
+    color: black;
+}
+.fab.fa-github.fa-2x{
+    color: black;
+}
+.container .row .col-1 img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-right: 0px;
+    border: 2px solid brown;
+
+}
+.container .row .col-2 p {
+    margin: auto;
+    margin-left: 0px;
+    font-size: 15px;
+    margin-top: 2px;
+}
+#Web {
+    color: gray;
+}
+.main-content {
+    margin-top: 30px;
+    background: url("../Images/bocas-de-ceniza.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 540px; 
+}
+.main-content p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+#name {
+    padding-top: 60px;
+    font-family: mySecondFont;
+    font-size: 100px;
+    color: rgba(245, 245, 245, 0.671);
+}
+.d-flex.justify-content-center.below {
+    margin-top: 100px;
+}
+.col-6.one {
+    background-color: #FFD700;
+    border-right: 1px solid whitesmoke;
+    height: 500px;
+}
+.col-6.two {
+    background-color: #FF7F50;
+    border-left: 1px solid whitesmoke;
+}
+.col-6.three {
+    background-color: #D2691E;
+    border-right: 1px solid whitesmoke;
+    height: 500px;
+}
+.col-6.four {
+    background-color: #BDB76B;
+    border-left: 1px solid whitesmoke;
+}
+.col-6.one img {
+    height: 250px;
+    width: 400px;
+    margin-left: 120px;
+    justify-content: center;
+    border-radius: 10px;
+    border: 1px solid grey;
+    
+}
+.col-6.two img {
+    height: 250px;
+    width: 400px;
+    margin-left: 120px;
+    justify-content: center;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+.col-6.three img {
+    height: 250px;
+    width: 400px;
+    margin-left: 120px;
+    justify-content: center;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+.col-6.four img {
+    height: 250px;
+    width: 400px;
+    margin-left: 120px;
+    justify-content: center;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+.d-flex.justify-content-center.title{
+    font-family: mySecondFont;
+    font-size: 30px;
+    color: black;
+    margin-top: 20px;
+}
+.row.projects {
+    border-top: 2px solid whitesmoke;
+}
+.d-flex.justify-content-center.description {
+    margin-top: 20px;
+}
+.row.justify-content-around button{
+    border: 1px solid grey;
+}
